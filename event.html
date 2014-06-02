@@ -1,0 +1,16 @@
+<html>
+<script src="jquery.1.6.4.min.js"></script>
+<body>
+	<div id="capture" style="width:500px;height:500px;background-color:#eee">Box</div>
+</body>
+</html>
+<script>
+// jquery code
+$( document).ready( function() { 
+	$("#capture").click(action)
+	$("#capture").mousemove(action)	
+	function action(e){
+		console.log(e);
+	}		
+})
+</script>
